@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: react-demo_production
-  username: react-demo
+  username: root
   password: <%= ENV['REACT-DEMO_DATABASE_PASSWORD'] %>
